@@ -51,7 +51,7 @@ class: inverse, center, middle
 
 class: inverse, center, middle
 
-# `r fa("fas fa-quote-left", fill = "#fff")` Knowles' Definition of SDL
+# `r fa("fas fa-quote-left", fill = "#fff")` 1. Knowles' Definition of SDL
 
 “In its broadest meaning, ‘self-directed learning’ describes a process in which individuals take the initiative, with or without the help of others, in diagnosing their learning needs, formulating their learning goals, identifying human and material resources for learning, choosing and implementing appropriate learning strategies, and evaluating learning outcomes.” (Knowles, 1975, p. 18)
 
@@ -59,7 +59,7 @@ Knowles, M. S. (1975). *Self-directed learning: A guide for learners and teacher
 
 ---
 
-# `r fa("fas fa-mountain-sun", fill = "#fff")` SDL Activities
+# `r fa("fas fa-mountain-sun", fill = "#fff")` 1. SDL Activities
 
 .pull-left-70[
 ```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
@@ -85,7 +85,7 @@ include_graphics("img/SDL.jpg")
 
 ---
 
-# `r fa("fas fa-gamepad", fill = "#fff")` Study 1: Elden Ring
+# `r fa("fas fa-gamepad", fill = "#fff")` 1. Study 1: Elden Ring
 
 ```{r, out.width = "80%", echo = FALSE, fig.align = "center"}
 include_graphics("img/ER1.png")
@@ -95,7 +95,7 @@ include_graphics("img/ER1.png")
 
 ---
 
-# `r fa("fas fa-gamepad", fill = "#fff")` Study 1: Elden Ring
+# `r fa("fas fa-gamepad", fill = "#fff")` 1. Study 1: Elden Ring
 
 ```{r, out.width = "60%", echo = FALSE, fig.align = "center"}
 include_graphics("img/ER2.png")
@@ -105,7 +105,7 @@ include_graphics("img/ER2.png")
 
 ---
 
-# `r fa("fas fa-gamepad", fill = "#fff")` Study 1: Elden Ring
+# `r fa("fas fa-gamepad", fill = "#fff")` 1. Study 1: Elden Ring
 
 ```{r, out.width = "70%", echo = FALSE, fig.align = "center"}
 include_graphics("img/ER3.png")
@@ -117,7 +117,7 @@ include_graphics("img/ER4.png")
 
 ---
 
-# `r fa("fas fa-gamepad", fill = "#fff")` Study 1: Elden Ring
+# `r fa("fas fa-gamepad", fill = "#fff")` 1. Study 1: Elden Ring
 
 .pull-left-70[
 ```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
@@ -141,7 +141,7 @@ include_graphics("img/ER5.png")
 
 ---
 
-# `r fa("fab fa-unity", fill = "#fff")` Study 2: FSU Innovation Hub
+# `r fa("fab fa-unity", fill = "#fff")` 1. Study 2: FSU Innovation Hub
 
 ```{r, out.width = "90%", echo = FALSE, fig.align = "center"}
 include_graphics("img/hub1.png")
@@ -151,7 +151,7 @@ include_graphics("img/hub1.png")
 
 ---
 
-# `r fa("fab fa-unity", fill = "#fff")` Study 2: FSU Innovation Hub
+# `r fa("fab fa-unity", fill = "#fff")` 1. Study 2: FSU Innovation Hub
 
 ```{r, out.width = "70%", echo = FALSE, fig.align = "center"}
 include_graphics("img/design-sprint.jpg")
@@ -165,7 +165,7 @@ include_graphics("img/design-sprint.jpg")
 
 ---
 
-# `r fa("fab fa-unity", fill = "#fff")` Study 2: FSU Innovation Hub
+# `r fa("fab fa-unity", fill = "#fff")` 1. Study 2: FSU Innovation Hub
 
 ```{r, out.width = "75%", echo = FALSE, fig.align = "center"}
 include_graphics("img/hub2.png")
@@ -175,7 +175,7 @@ include_graphics("img/hub2.png")
 
 ---
 
-# `r fa("fab fa-unity", fill = "#fff")` Study 2: FSU Innovation Hub
+# `r fa("fab fa-unity", fill = "#fff")` 1. Study 2: FSU Innovation Hub
 
 ```{r, out.width = "75%", echo = FALSE, fig.align = "center"}
 include_graphics("img/hub3.png")
@@ -199,7 +199,7 @@ class: inverse, center, middle
 
 ---
 
-# `r fa("far fa-map", fill = "#fff")` Workshop Purpose
+# `r fa("far fa-map", fill = "#fff")` 1. Workshop Purpose
 
 ```{r, out.width = "60%", echo = FALSE, fig.align = "center"}
 include_graphics("img/SDL.jpg")
@@ -230,7 +230,7 @@ class: inverse, center, middle
 
 ---
 
-# `r fa("fas fa-circle-notch", fill = "#fff")` Design Thinking
+# `r fa("fas fa-circle-notch", fill = "#fff")` 2. Design Thinking
 
 ```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
 include_graphics("img/design-thinking-cycle.png")
@@ -240,7 +240,7 @@ include_graphics("img/design-thinking-cycle.png")
 
 ---
 
-# `r fa("fas fa-circle-notch", fill = "#fff")` Design Thinking
+# `r fa("fas fa-circle-notch", fill = "#fff")` 2. Design Thinking
 
 ```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
 include_graphics("img/design-thinking-process.png")
@@ -258,7 +258,7 @@ class: inverse, center, middle
 
 ---
 
-# `r fa("fas fa-users", fill = "#fff")` Grouping
+# `r fa("fas fa-users", fill = "#fff")` 3. Grouping
 
 .pull-left-70[
 ```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
@@ -293,7 +293,7 @@ class: inverse, center, middle
 
 ---
 
-# `r fa("fas fa-magnifying-glass", fill = "#fff")` Learning Needs and Goals
+# `r fa("fas fa-magnifying-glass", fill = "#fff")` 4. Learning Needs and Goals
 
 .pull-left-70[
 ```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
@@ -321,7 +321,7 @@ class: inverse, center, middle
 
 ---
 
-# `r fa("fas fa-street-view", fill = "#fff")` Learning Strategies 
+# `r fa("fas fa-street-view", fill = "#fff")` 5. Learning Strategies 
 
 .pull-left-70[
 ```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
@@ -351,7 +351,7 @@ class: inverse, center, middle
 
 ---
 
-# `r fa("far fa-comments", fill = "#fff")` Reports
+# `r fa("far fa-comments", fill = "#fff")` 6. Reports
 
 .pull-left-70[
 ```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
