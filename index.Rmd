@@ -1,0 +1,390 @@
+---
+title: "It Depends"
+subtitle: "Choosing the Right Path in the Landscape between SDL and Direct Instruction"
+author: "Bret Staudt Willet | Florida State University | USA"
+date: "November 11, 2026"
+output:
+  xaringan::moon_reader:
+    includes:
+      in_header: "favicon.html"
+    lib_dir:  libs
+    seal: true
+    css: [default, 'custom.css', 'custom-fonts.css']
+    nature:
+      titleSlideClass: [left, bottom]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+usethis::use_git_ignore(c("*.csv", "*.rds"))
+options(htmltools.dir.version = FALSE)
+
+library(knitr)
+library(tidyverse)
+library(xaringan)
+library(fontawesome)
+```
+
+class: inverse, center, middle
+
+# `r fa("fas fa-images", fill = "#fff")`
+
+**View the slides:** 
+
+[bretsw.com/nwu26-workshop1](https://bretsw.com/nwu26-workshop1/)
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("far fa-map", fill = "#fff")` <br><br> Part 1:<br>Workshop Purpose
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-quote-left", fill = "#fff")` Knowles' Definition of SDL
+
+“In its broadest meaning, ‘self-directed learning’ describes a process in which individuals take the initiative, with or without the help of others, in diagnosing their learning needs, formulating their learning goals, identifying human and material resources for learning, choosing and implementing appropriate learning strategies, and evaluating learning outcomes.” (Knowles, 1975, p. 18)
+
+Knowles, M. S. (1975). *Self-directed learning: A guide for learners and teachers*. Cambridge, The Adult Education Company.
+
+---
+
+# `r fa("fas fa-mountain-sun", fill = "#fff")` SDL Activities
+
+.pull-left-70[
+```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
+include_graphics("img/SDL.jpg")
+```
+]
+
+.pull-right-30[
+
+1. Diagnosing their learning needs
+
+2. Formulating their learning goals
+
+3. Identifying human and material resources for learning
+
+4. Choosing and implementing appropriate learning strategies
+
+5. Evaluating learning outcomes
+
+]
+
+
+
+---
+
+# `r fa("fas fa-gamepad", fill = "#fff")` Study 1: Elden Ring
+
+```{r, out.width = "80%", echo = FALSE, fig.align = "center"}
+include_graphics("img/ER1.png")
+```
+
+### Massively popular video game
+
+---
+
+# `r fa("fas fa-gamepad", fill = "#fff")` Study 1: Elden Ring
+
+```{r, out.width = "60%", echo = FALSE, fig.align = "center"}
+include_graphics("img/ER2.png")
+```
+
+### Massively difficult video game
+
+---
+
+# `r fa("fas fa-gamepad", fill = "#fff")` Study 1: Elden Ring
+
+```{r, out.width = "70%", echo = FALSE, fig.align = "center"}
+include_graphics("img/ER3.png")
+```
+
+```{r, out.width = "70%", echo = FALSE, fig.align = "center"}
+include_graphics("img/ER4.png")
+```
+
+---
+
+# `r fa("fas fa-gamepad", fill = "#fff")` Study 1: Elden Ring
+
+.pull-left-70[
+```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
+include_graphics("img/ER5.png")
+```
+]
+
+--
+
+.pull-right-30[
+
+### Key Points:
+
+- All evidence of SDL in r/Eldenring seems to be resource-related.
+
+- How to detect other SDL activities? (TOMORROW!)
+
+]
+
+
+
+---
+
+# `r fa("fab fa-unity", fill = "#fff")` Study 2: FSU Innovation Hub
+
+```{r, out.width = "90%", echo = FALSE, fig.align = "center"}
+include_graphics("img/hub1.png")
+```
+
+### Unique Student and Faculty Visitors by Day
+
+---
+
+# `r fa("fab fa-unity", fill = "#fff")` Study 2: FSU Innovation Hub
+
+```{r, out.width = "70%", echo = FALSE, fig.align = "center"}
+include_graphics("img/design-sprint.jpg")
+```
+
+### SDL in Intensive Events
+
+"Florida State University students build AI career tools in 24-hour sprint with Amazon Web Services"
+
+[Link to FSU News Article](https://news.fsu.edu/news/science-technology/2026/02/19/florida-state-university-students-build-ai-career-tools-in-24-hour-sprint-with-amazon-web-services/)
+
+---
+
+# `r fa("fab fa-unity", fill = "#fff")` Study 2: FSU Innovation Hub
+
+```{r, out.width = "75%", echo = FALSE, fig.align = "center"}
+include_graphics("img/hub2.png")
+```
+
+### SDL Supports During Intensive Events
+
+---
+
+# `r fa("fab fa-unity", fill = "#fff")` Study 2: FSU Innovation Hub
+
+```{r, out.width = "75%", echo = FALSE, fig.align = "center"}
+include_graphics("img/hub3.png")
+```
+
+### Self-Reported SDL During Intensive Events
+
+*Why not needs and goals? What about evaluation?*
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("far fa-map", fill = "#fff")` <br><br> Precipitating Problem
+
+**"Choosing and implementing appropriate learning strategies"**
+
+---
+
+# `r fa("far fa-map", fill = "#fff")` Workshop Purpose
+
+```{r, out.width = "60%", echo = FALSE, fig.align = "center"}
+include_graphics("img/SDL.jpg")
+```
+
+--
+
+- Arrive at a deeper understanding of the SDL activity of **Choosing and Implementing Learning Strategies**
+
+--
+
+-	Identify key factors for self-directed learners who are choosing and implementing learning strategies
+
+--
+
+(perhaps reflecting a bit on the historical debate about Instructional Strategies: Clark vs. Kozma)
+
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-circle-notch", fill = "#fff")` <br><br> Part 2:<br>Intro to Design Thinking
+
+---
+
+# `r fa("fas fa-circle-notch", fill = "#fff")` Design Thinking
+
+```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
+include_graphics("img/design-thinking-cycle.png")
+```
+
+### innovation.fsu.edu/design
+
+---
+
+# `r fa("fas fa-circle-notch", fill = "#fff")` Design Thinking
+
+```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
+include_graphics("img/design-thinking-process.png")
+```
+
+### innovation.fsu.edu/design
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-users", fill = "#fff")` <br><br> Part 3:<br>Grouping
+
+---
+
+# `r fa("fas fa-users", fill = "#fff")` Grouping
+
+.pull-left-70[
+```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
+include_graphics("img/interview.jpg")
+```
+]
+
+.pull-right-30[
+
+- **Find Your Team**
+
+  - Online participants are a group
+
+  - Those sitting around a table are a group
+
+- **Pick Your SDL Focus**
+
+  - Start working on a "How might we?" prompt
+  
+]
+
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-magnifying-glass", fill = "#fff")` <br><br>Part 4:<br>Identifying Needs and Goals
+
+---
+
+# `r fa("fas fa-magnifying-glass", fill = "#fff")` Learning Needs and Goals
+
+.pull-left-70[
+```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
+include_graphics("img/SDL.jpg")
+```
+]
+
+.pull-right-30[
+
+- **What are the learning needs related to your SDL topic?**
+
+- **What are some related learning goals?**
+
+]
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-street-view", fill = "#fff")` <br><br> Part 5:<br>Choosing and Implementing Appropriate Learning Strategies 
+
+---
+
+# `r fa("fas fa-street-view", fill = "#fff")` Learning Strategies 
+
+.pull-left-70[
+```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
+include_graphics("img/outline.jpg")
+```
+]
+
+.pull-right-30[
+
+**Helping self-directed learners choose and implement strategies:**
+
+- What are some key factors for self-directed learners who are choosing and implementing learning strategies?
+
+- From these factors, what learning strategies model could we construct to help self-directed learners?
+
+]
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("far fa-comments", fill = "#fff")` <br><br> Part 6:<br>Reports, Evaluation, and Model Building
+
+---
+
+# `r fa("far fa-comments", fill = "#fff")` Reports
+
+.pull-left-70[
+```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
+include_graphics("img/report.jpg")
+```
+
+### [Miro board](https://miro.com/app/board/uXjVEPGCpuw=/?share_link_id=418103950265) for taking notes
+]
+
+.pull-right-30[
+
+**Helping self-directed learners choose and implement strategies:**
+
+- What are some key factors for self-directed learners who are choosing and implementing learning strategies?
+
+- From these factors, what learning strategies model could we construct to help self-directed learners?
+
+]
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-question", fill = "#fff")` <br><br> What should we<br>talk more about?
+
+<hr>
+
+<br><br><br><br><br>
+
+**Bret Staudt Willet** <br><br> Florida State University (USA)
+
+`r fa("envelope", fill = "#fff")` [bret.staudtwillet@fsu.edu](mailto:bret.staudtwillet@fsu.edu) | `r fa("globe", fill = "#fff")` [bretsw.com](https://bretsw.com/) | `r fa("fab fa-github", fill = "#fff")` [github.com/bretsw](https://github.com/bretsw/)
