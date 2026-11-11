@@ -141,17 +141,17 @@ include_graphics("img/ER5.png")
 
 ---
 
-# `r fa("fab fa-unity", fill = "#fff")` 1. Study 2: FSU Innovation Hub
+# `r fa("fab fa-unity", fill = "#fff")` 1. Study 2: Innovation Hub
 
 ```{r, out.width = "90%", echo = FALSE, fig.align = "center"}
 include_graphics("img/hub1.png")
 ```
 
-### Unique Student and Faculty Visitors by Day
+### Unique Student and Faculty Visitors to the Innovation Hub by Day
 
 ---
 
-# `r fa("fab fa-unity", fill = "#fff")` 1. Study 2: FSU Innovation Hub
+# `r fa("fab fa-unity", fill = "#fff")` 1. Study 2: Innovation Hub
 
 ```{r, out.width = "70%", echo = FALSE, fig.align = "center"}
 include_graphics("img/design-sprint.jpg")
@@ -165,23 +165,23 @@ include_graphics("img/design-sprint.jpg")
 
 ---
 
-# `r fa("fab fa-unity", fill = "#fff")` 1. Study 2: FSU Innovation Hub
+# `r fa("fab fa-unity", fill = "#fff")` 1. Study 2: Innovation Hub
 
 ```{r, out.width = "75%", echo = FALSE, fig.align = "center"}
 include_graphics("img/hub2.png")
 ```
 
-### SDL Supports During Intensive Events
+### SDL Supports During Intensive Events at the Innovation Hub
 
 ---
 
-# `r fa("fab fa-unity", fill = "#fff")` 1. Study 2: FSU Innovation Hub
+# `r fa("fab fa-unity", fill = "#fff")` 1. Study 2: Innovation Hub
 
 ```{r, out.width = "75%", echo = FALSE, fig.align = "center"}
 include_graphics("img/hub3.png")
 ```
 
-### Self-Reported SDL During Intensive Events
+### Self-Reported SDL During Intensive Events at the Innovation Hub
 
 *Why not needs and goals? What about evaluation?*
 
